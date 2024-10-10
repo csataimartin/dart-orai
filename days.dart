@@ -33,6 +33,9 @@ void main(){
     
   }
 
-  print("Az iskolai nappok: ${schoolDays}");
+  for(String i in schoolDays)
+  {
+    print("Az iskolai napok: $i");
+  }
 
 }
